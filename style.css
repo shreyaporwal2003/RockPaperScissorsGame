@@ -66,3 +66,14 @@ img{
 
 
 }
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .choices {
+        flex-direction: column; /* Stack choices vertically on smaller screens */
+    }
+
+    .choice {
+        margin-bottom: 2rem; /* Add space between choices on smaller screens */
+    }
+}
