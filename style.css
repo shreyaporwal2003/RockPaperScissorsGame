@@ -67,7 +67,7 @@ img{
 
 }
 /* Media Queries for responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     /* Adjust styles for smaller screens */
     .choices {
         flex-direction: column; /* Stack choices vertically on smaller screens */
